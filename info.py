@@ -66,7 +66,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Arya_bro') # owner username with
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Arya_Movies_Request_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vs_Files_Mx_player')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+_Y54DFBnaVUwZjc1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/vs_Files_Mx_player/135')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/vs_Files_Mx_player/135')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Arya_Bro_Bot') # Support Chat Link Without https:// or @
