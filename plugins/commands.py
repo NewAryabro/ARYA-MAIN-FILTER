@@ -39,8 +39,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('🫰Database Channel', url="https://t.me/+VX8R2-7yWixkMDZl"),
-            InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/Telugu_Movies_999')
+            InlineKeyboardButton('🫰Database Channel', url="https://t.me/+XEl__9JQMewxNTNl"),
+            InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+rmc5APyxl-hkNjhl')
         ],[
             InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
         ]]
@@ -60,25 +60,25 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Deals 😃', url='https://t.me/Vs_Best_Deals'),
-                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+VX8R2-7yWixkMDZl')
+                InlineKeyboardButton('Deals 😃', url='https://t.me/+Xe7uEmoaZ0pmNjJl'),
+                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+XEl__9JQMewxNTNl')
             ],[
                 InlineKeyboardButton('❤️‍🔥 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ❤️‍🔥', callback_data='subscription')
             ],[
                 InlineKeyboardButton('Update Channel 🫡', url=CHNL_LNK),
-                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+-duU_vRUZzswZDY1')
+                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+rmc5APyxl-hkNjhl')
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Deals 😃', url='https://t.me/Vs_Best_Deals'),
-                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+VX8R2-7yWixkMDZl')
+                InlineKeyboardButton('Deals 😃', url='https://t.me/+Xe7uEmoaZ0pmNjJl'),
+                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+XEl__9JQMewxNTNl')
             ],[
                 InlineKeyboardButton('❤️‍🔥 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ❤️‍🔥', callback_data='subscription')
             ],[
                 InlineKeyboardButton('Update Channel 🫡', url=CHNL_LNK),
-                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+-duU_vRUZzswZDY1')
+                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+rmc5APyxl-hkNjhl')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -125,25 +125,25 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Deals 😃', url='https://t.me/Vs_Best_Deals'),
-                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+VX8R2-7yWixkMDZl')
+                InlineKeyboardButton('Deals 😃', url='https://t.me/+Xe7uEmoaZ0pmNjJl'),
+                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+XEl__9JQMewxNTNl')
             ],[
                 InlineKeyboardButton('❤️‍🔥 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ❤️‍🔥', callback_data='subscription')
             ],[
                 InlineKeyboardButton('Update Channel 🫡', url=CHNL_LNK),
-                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+-duU_vRUZzswZDY1')
+                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+rmc5APyxl-hkNjhl')
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Deals 😃', url='https://t.me/Vs_Best_Deals'),
-                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+VX8R2-7yWixkMDZl')
+                InlineKeyboardButton('Deals 😃', url='https://t.me/+Xe7uEmoaZ0pmNjJl'),
+                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+XEl__9JQMewxNTNl')
             ],[
                 InlineKeyboardButton('❤️‍🔥 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ❤️‍🔥', callback_data='subscription')
             ],[
                 InlineKeyboardButton('Update Channel 🫡', url=CHNL_LNK),
-                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+-duU_vRUZzswZDY1')
+                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+rmc5APyxl-hkNjhl')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -176,25 +176,25 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Deals 😃', url='https://t.me/Vs_Best_Deals'),
-                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+VX8R2-7yWixkMDZl')
+                InlineKeyboardButton('Deals 😃', url='https://t.me/+Xe7uEmoaZ0pmNjJl'),
+                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+XEl__9JQMewxNTNl')
             ],[
                 InlineKeyboardButton('❤️‍🔥 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ❤️‍🔥', callback_data='subscription')
             ],[
                 InlineKeyboardButton('Update Channel 🫡', url=CHNL_LNK),
-                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+-duU_vRUZzswZDY1')
+                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+rmc5APyxl-hkNjhl')
                 ]]
             else:
                 buttons = [[
                     InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Deals 😃', url='https://t.me/Vs_Best_Deals'),
-                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+VX8R2-7yWixkMDZl')
+                InlineKeyboardButton('Deals 😃', url='https://t.me/+Xe7uEmoaZ0pmNjJl'),
+                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+XEl__9JQMewxNTNl')
             ],[
                 InlineKeyboardButton('❤️‍🔥 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ❤️‍🔥', callback_data='subscription')
             ],[
                 InlineKeyboardButton('Update Channel 🫡', url=CHNL_LNK),
-                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+-duU_vRUZzswZDY1')
+                InlineKeyboardButton('Movies Request Group 😇', url='https://t.me/+rmc5APyxl-hkNjhl')
                 ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -266,7 +266,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/arya_bro_bot")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Movie_Delivery_Admin_Bot")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -276,7 +276,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/arya_bro_bot")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Movie_Delivery_Admin_Bot")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -534,7 +534,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Arya_bro_bot")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Movie_Delivery_Admin_Bot")
                 ],[
                     InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                 ]]
@@ -543,7 +543,7 @@ async def start(client, message):
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/arya_bro_bot")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Movie_Delivery_Admin_Bot")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -606,7 +606,7 @@ async def start(client, message):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/arya_bro_bot")
+            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Movie_Delivery_Admin_Bot")
         ],[
             InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
         ]]
@@ -615,7 +615,7 @@ async def start(client, message):
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
         ],[
-            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/arya_bro_bot")
+            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Movie_Delivery_Admin_Bot")
         ]]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
