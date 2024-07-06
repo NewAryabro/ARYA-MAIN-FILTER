@@ -127,7 +127,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://arya-main-f7ecf6f3211f.herokuapp.com/")
+URL = environ.get("URL", "https://yielding-virginie-arya-telegram-bots-587a97d6.koyeb.app/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
