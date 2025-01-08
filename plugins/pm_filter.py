@@ -1892,7 +1892,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('Deals 😃', url='https://t.me/Vs_Best_Deals'),
-                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+VX8R2-7yWixkMDZl')
+                InlineKeyboardButton('🫰Main Channel', url='https://t.me/Telugu_Movies_999')
             ],[
                 InlineKeyboardButton('❤️‍🔥 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ❤️‍🔥', callback_data='subscription')
             ],[
@@ -1904,7 +1904,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('✌ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('Deals 😃', url='https://t.me/Vs_Best_Deals'),
-                InlineKeyboardButton('🫰Database Channel', url='https://t.me/+VX8R2-7yWixkMDZl')
+                InlineKeyboardButton('🫰Main Channel', url='https://t.me/Telugu_Movies_999')
             ],[
                 InlineKeyboardButton('❤️‍🔥 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ❤️‍🔥', callback_data='subscription')
             ],[
