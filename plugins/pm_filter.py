@@ -911,41 +911,39 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                    InlineKeyboardButton("ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
-                    InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                    InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+                    InlineKeyboardButton("🫧 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
+                    InlineKeyboardButton("🌿 sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
                 ]
             )
             btn.insert(0, [
-                InlineKeyboardButton("sᴇʟᴇᴄᴛ 👉", callback_data="select"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
-            ])
+                InlineKeyboardButton("✨ sᴇʟᴇᴄᴛ ᴍᴏᴠɪᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}")
+        ])
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                    InlineKeyboardButton("ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
-                    InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                    InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+                    InlineKeyboardButton("🫧 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
+                    InlineKeyboardButton("🌿 sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
                 ]
             )
             btn.insert(0, [
-                InlineKeyboardButton("sᴇʟᴇᴄᴛ 👉", callback_data="select"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
-            ])
+                InlineKeyboardButton("✨ sᴇʟᴇᴄᴛ ᴍᴏᴠɪᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}")
+        ])
+
                 
     except KeyError:
         await save_group_settings(query.message.chat.id, 'auto_delete', True)
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
-                InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🫧 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
+                InlineKeyboardButton("🌿 sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("sᴇʟᴇᴄᴛ 👉", callback_data="select"),
-            InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
+            InlineKeyboardButton("✨ sᴇʟᴇᴄᴛ ᴍᴏᴠɪᴇ ʟᴀɴɢᴜᴀɢᴇ ✨", callback_data=f"languages#{key}")
         ])
 
     # btn.insert(0, [
@@ -977,9 +975,9 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
   #  ])
     # else:
     btn.insert(0, [
-        InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-        InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
-    ])
+        InlineKeyboardButton("🍂 Mᴀɪɴ Cʜᴀɴɴᴇʟ 🍂", url=f"https://telegram.me/Telugu_Movies_999"),
+        InlineKeyboardButton("💥 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+        ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -2724,7 +2722,6 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton("🍂 Mᴀɪɴ Cʜᴀɴɴᴇʟ 🍂", url=f"https://telegram.me/Telugu_Movies_999"),
             InlineKeyboardButton("💥 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
-        
     if offset != "":
         req = message.from_user.id if message.from_user else 0
         try:
